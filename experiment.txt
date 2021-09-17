@@ -1,0 +1,6 @@
+Hardware env: CPU-> AMD Ryzen 7 5800X 3.8GHz, RAM: DDR4 32G
+Native sw: Ubuntu 20.04
+Wasm sw: Chrome
+
+bzip2_compress_target native: #268881 REDUCE cov: 631 ft: 2647 corp: 845/106Kb lim: 1021 exec/s: 1286 rss: 72Mb L: 358/976 MS: 2 ChangeBinInt-EraseBytes-
+bzip2_compress_target wasm: #47088 REDUCE fd: 2061 corp: 337/43Kb lim: 259 exec/s: 270 rss: 0MB L: 15/259 MS: 1 EraseBytes-
