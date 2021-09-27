@@ -1,0 +1,38 @@
+\begin{tabular}{lrrrr}
+\toprule
+\midrule
+	Project/Fuzzer	& Native w/ ASAN  & WASM w/ ASAN & Native w/o ASAN & WASM w/o ASAN \\
+\midrule
+	bzip2/bzip2\_compress\_target		& 2004  & 270    &	2501 	& 2598 		\\
+	bzip2/bzip2\_decompress\_target		& 17597 & 2909   &	26402 	& 21146 	\\
+	guetzli/guetzli\_fuzzer				& 21776	& 2365   &	17858  	& 14828 	\\
+	hoextdown/hoedown\_fuzzer			& 8415 	& 912    &	9380  	& 6171		\\
+	http-parser/fuzz\_parser			& 95361 & 4693   &	98080   & 64010		\\
+	http-parser/fuzz\_url				& 84443 & 4510   &	93807   & 77950 	\\
+	json-c/tokener\_parse\_ex\_fuzzer	& 52064	& 1612   &	55699  	& 43174		\\
+	libpcap/fuzz\_both					& 13597	& 3276   & 15930   	& 13366 	\\
+	libpcap/fuzz\_filter				& 11169	& 1692   & 14908	& 13852		\\
+	libpcap/fuzz\_pcap					& 14048	& 3276   & 14647	& 13959	 	\\
+	libtsm/libtsm\_fuzzer				& 6846	& 270    & 6955 	& 5532  	\\
+	libyaml/libyaml\_fuzzer				& 17320 & 1491   & 23580   	& 23977  	\\
+	lodepng/lodepng\_fuzzer				& 55671 & 2946   & 73405  	& 44173	 	\\
+	lzma/7z\_fuzzer						& 39016	& 1076   & 40961   	& 29775 	\\
+	lzma/filters\_fuzzer				& 10091	& 1008   & 17369   	& 16930  	\\
+	lzma/lzma2dec\_fuzzer				& 7026 	& 334    & 12751  	& 11988     \\
+	lzma/lzma2enc\_fuzzer				& 1771  & 102    & 3872   	& 3669   	\\
+	lzma/lzmadec\_fuzzer				& 1804 	& 437    & 3602   	& 4041    	\\
+	lzma/lzmaenc\_fuzzer				& 109   & 29     & 305      & 222 	    \\
+	lzma/ppmdenc\_fuzzer				& 1427  & 925    & 2353   	& 1783    	\\	
+	lzma/xzenc\_fuzzer					& 29    & 8      & 82       & 65    	\\
+	lzo/all\_lzo\_compress				& 12302	& 1218   & 12846	& 13123 	\\
+	lzo/lzo\_compress\_target			& 65649  & 3524  & 88960    & 43516 	\\
+	lzo/lzo\_decompress\_target			& 103294 & 2471  & 105184   & 60311	 	\\
+	nestegg/fuzz						& 66071	 & 3646  & 80161    & 61680 	\\
+	nghttp2/nghttp2\_fuzzer				& 40721	 & 2270  & 46863  	& 24966 	\\
+	rapidjson/fuzzer					& 51166	 & 2677  & 60293	& 27393 	\\
+	tinyxml2/xmltest					& 134756 & 2611  & 184365  	& 69905     \\
+	yajl-ruby/json\_fuzzer				& 104143 & 2652  & 155461   & 58587 	\\
+\bottomrule
+\end{tabular}
+
+
